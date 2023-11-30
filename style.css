@@ -2,5 +2,19 @@
 
 * {
     box-sizing: border-box;
-  }
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: linear-gradient(
+        to left top, 
+        rgb(219, 143, 143),
+        rgb(121, 231, 173)
+    );
+    font-family: "Poppins", sans-serif;
+}
   
