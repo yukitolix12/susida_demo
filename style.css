@@ -34,3 +34,11 @@ body {
     margin-top: 4rem;
     font-size: 3rem;
 }
+
+.timer {
+    position: absolute;
+    top: 2rem;
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(202, 82, 87);
+}
