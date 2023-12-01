@@ -29,4 +29,7 @@ body {
     max-width: 90%;
     box-shadow: 1px 5px 6px rgb(80, 80, 80);
 }
-  
+ 
+.container .type-input {
+    margin-top: 4rem;
+}
