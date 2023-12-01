@@ -30,6 +30,7 @@ body {
     box-shadow: 1px 5px 6px rgb(80, 80, 80);
 }
  
-.container .type-input {
+.container .type-Input {
     margin-top: 4rem;
+    font-size: 3rem;
 }
