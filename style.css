@@ -30,7 +30,7 @@ body {
     box-shadow: 1px 5px 6px rgb(80, 80, 80);
 }
  
-.container .type-Input {
+.container .type-input {
     margin-top: 4rem;
     font-size: 3rem;
 }
@@ -48,7 +48,7 @@ body {
     margin-left: 1rem;
 }
 
-.type-Input {
+.type-input {
     background: transparent;
     border: 2px solid rgb(158, 52, 52);
     outline: none;
@@ -59,4 +59,8 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     font-size: 1rem;
+}
+
+.type-input:focus{
+    border-color: black;
 }
