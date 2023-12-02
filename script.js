@@ -8,8 +8,8 @@ function GetRandomSentence() {
 }
 
 /* ランダムな文章を取得して、表示する */
-function RenderNextSentence() {
-    const sentence = GetRandomSentence();
+async function RenderNextSentence() {
+    const sentence = await GetRandomSentence();
     console.log(sentence);
 }
 
