@@ -12,3 +12,5 @@ function RenderNextSentence() {
     const sentence = GetRandomSentence();
     console.log(sentence);
 }
+
+RenderNextSentence();
