@@ -9,7 +9,5 @@ function GetRandomSentence() {
 
 /* ランダムな文章を取得して、表示する */
 function RenderNextSentence() {
-    
+    const sentence = GetRandomSentence();
 }
-
-GetRandomSentence();
