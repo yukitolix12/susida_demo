@@ -12,6 +12,8 @@ function GetRandomSentence() {
 async function RenderNextSentence() {
     const sentence = await GetRandomSentence();
     console.log(sentence);
+
+    typeDisplay.innerText = sentence;
 }
 
 RenderNextSentence();
