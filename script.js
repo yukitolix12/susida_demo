@@ -6,3 +6,5 @@ function GetRandomSentence() {
     .then((response) => response.json())
     .then((data) => console.log(data.content));
 }
+
+GetRandomSentence();
