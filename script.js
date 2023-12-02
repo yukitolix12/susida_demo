@@ -7,4 +7,9 @@ function GetRandomSentence() {
     .then((data) => console.log(data.content));
 }
 
+/* ランダムな文章を取得して、表示する */
+function RenderNextSentence() {
+    
+}
+
 GetRandomSentence();
