@@ -21,6 +21,7 @@ async function RenderNextSentence() {
         characterSpan.innerText = character;
         //console.log(characterSpan);
         typeDisplay.appendChild(characterSpan);
+        characterSpan.classList.add("correct");
     });
 }
 
