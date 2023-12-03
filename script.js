@@ -19,7 +19,7 @@ async function RenderNextSentence() {
     oneText.forEach((character) => {
         const characterSpan = document.createElement("span");
         characterSpan.innerText = character;
-        console.log(characterSpan);
+        //console.log(characterSpan);
     });
 }
 
