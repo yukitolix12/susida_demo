@@ -26,6 +26,7 @@ async function RenderNextSentence() {
     });
 
     /* テキストボックスの中身を消す */
+    typeInput.innerText = "";
 }
 
 RenderNextSentence();
