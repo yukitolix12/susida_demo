@@ -16,7 +16,7 @@ async function RenderNextSentence() {
     typeDisplay.innerText = sentence;
     /* 文章を1文字ずつ分解して、spanタグを生成する */
     let text = sentence.split("");
-    console.log(text);
+    // console.log(text);
 }
 
 RenderNextSentence();
