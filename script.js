@@ -17,7 +17,9 @@ async function RenderNextSentence() {
     /* 文章を1文字ずつ分解して、spanタグを生成する */
     let oneText = sentence.split("");
     // console.log(text);
-    oneText.forEach()
+    oneText.forEach((character) => {
+        const characterSpan = document.createElement("span");
+    })
 }
 
 RenderNextSentence();
