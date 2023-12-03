@@ -4,7 +4,7 @@ const typeInput = document.getElementById("typeInput");
 
 /*  inputテキスト入力。合っているかどうかの判定。*/
 typeInput.addEventListener("input", () => {
-    console.log("a");
+    const sentenceArray = typeDisplay.querySelectorAll("span");
 });
 
 /* 非同期でランダムな文章を取得する */
