@@ -2,6 +2,11 @@ const RANDOM_SENTENCE_URL_API = "https://api.quotable.io/random";
 const typeDisplay = document.getElementById("typeDisplay");
 const typeInput = document.getElementById("typeInput");
 
+/*  inputテキスト入力。合っているかどうかの判定。*/
+typeInput.addEventListener("input", () => {
+
+});
+
 /* 非同期でランダムな文章を取得する */
 function GetRandomSentence() {
     return fetch(RANDOM_SENTENCE_URL_API)
