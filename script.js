@@ -20,6 +20,7 @@ async function RenderNextSentence() {
         const characterSpan = document.createElement("span");
         characterSpan.innerText = character;
         //console.log(characterSpan);
+        typeDisplay.appendChild(characterSpan);
     });
 }
 
