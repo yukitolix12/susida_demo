@@ -13,7 +13,7 @@ async function RenderNextSentence() {
     const sentence = await GetRandomSentence();
     console.log(sentence);
 
-    typeDisplay.innerText = sentence;
+    typeDisplay.innerText = "";
     /* 文章を1文字ずつ分解して、spanタグを生成する */
     let oneText = sentence.split("");
     oneText.forEach((character) => {
