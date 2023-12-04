@@ -51,4 +51,8 @@ async function RenderNextSentence() {
     StartTimer();
 }
 
+function StartTimer {
+    
+}
+
 RenderNextSentence();
