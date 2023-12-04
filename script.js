@@ -7,7 +7,10 @@ typeInput.addEventListener("input", () => {
     const sentenceArray = typeDisplay.querySelectorAll("span");
     // console.log(sentenceArray);
     const arrayValue = typeInput.value.split("");
-    //console.log(arrayValue);
+    // console.log(arrayValue);
+    sentenceArray.forEach((character, index) => {
+        
+    })
 });
 
 /* 非同期でランダムな文章を取得する */
