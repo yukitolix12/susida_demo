@@ -10,10 +10,11 @@ typeInput.addEventListener("input", () => {
     // console.log(arrayValue);
     sentenceArray.forEach((characterSpan, index) => {
         if(characterSpan.innerText == arrayValue[index]) {
-            console.log("correct");
             characterSpan.classList.add("correct");
+        } else {
+            characterSpan.classList.add("incorrect");
         }
-    })
+    });
 });
 
 /* 非同期でランダムな文章を取得する */
