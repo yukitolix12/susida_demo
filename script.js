@@ -11,6 +11,7 @@ typeInput.addEventListener("input", () => {
     sentenceArray.forEach((characterSpan, index) => {
         if(characterSpan.innerText == arrayValue[index]) {
             characterSpan.classList.add("correct");
+            characterSpan.classList.remove("incorrect");
         } else {
             characterSpan.classList.add("incorrect");
         }
