@@ -1,6 +1,7 @@
 const RANDOM_SENTENCE_URL_API = "https://api.quotable.io/random";
 const typeDisplay = document.getElementById("typeDisplay");
 const typeInput = document.getElementById("typeInput");
+const timer = document.getElementById("timer");
 
 /*  inputテキスト入力。合っているかどうかの判定。*/
 typeInput.addEventListener("input", () => {
@@ -51,7 +52,7 @@ async function RenderNextSentence() {
     StartTimer();
 }
 
-function StartTimer {
+function StartTimer() {
     
 }
 
