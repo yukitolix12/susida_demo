@@ -9,6 +9,9 @@ typeInput.addEventListener("input", () => {
     const arrayValue = typeInput.value.split("");
     // console.log(arrayValue);
     sentenceArray.forEach((characterSpan, index) => {
+        if((arrayValue[index] = null)) {
+            
+        }
         if(characterSpan.innerText == arrayValue[index]) {
             characterSpan.classList.add("correct");
             characterSpan.classList.remove("incorrect");
