@@ -52,6 +52,7 @@ async function RenderNextSentence() {
     StartTimer();
 }
 
+let startTime;
 let originTime = 30;
 function StartTimer() {
     timer.innerText = originTime;
