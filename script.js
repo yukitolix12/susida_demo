@@ -53,7 +53,7 @@ async function RenderNextSentence() {
 }
 
 function StartTimer() {
-    
+    timer.innerText = 30;
 }
 
 RenderNextSentence();
