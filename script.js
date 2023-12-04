@@ -57,6 +57,7 @@ let originTime = 30;
 function StartTimer() {
     timer.innerText = originTime;
     startTime = new Date();
+    console.log(startTime);
 }
 
 RenderNextSentence();
