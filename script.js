@@ -14,6 +14,7 @@ typeInput.addEventListener("input", () => {
             characterSpan.classList.remove("incorrect");
         } else {
             characterSpan.classList.add("incorrect");
+            characterSpan.classList.remove("correct");
         }
     });
 });
