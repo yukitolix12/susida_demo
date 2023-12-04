@@ -9,7 +9,7 @@ typeInput.addEventListener("input", () => {
     const arrayValue = typeInput.value.split("");
     // console.log(arrayValue);
     sentenceArray.forEach((characterSpan, index) => {
-        if((arrayValue[index] = null)) {
+        if((arrayValue[index] == null)) {
             characterSpan.classList.remove("correct");
             characterSpan.classList.remove("correct");
         }else if(characterSpan.innerText == arrayValue[index]) {
