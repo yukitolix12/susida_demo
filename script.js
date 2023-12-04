@@ -8,7 +8,7 @@ typeInput.addEventListener("input", () => {
     // console.log(sentenceArray);
     const arrayValue = typeInput.value.split("");
     // console.log(arrayValue);
-    sentenceArray.forEach((character, index) => {
+    sentenceArray.forEach((characterSpan, index) => {
         if(characterSpan.)
     })
 });
