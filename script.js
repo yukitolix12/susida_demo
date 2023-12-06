@@ -64,7 +64,7 @@ function StartTimer() {
 }
 
 function getTimerTime() {
-    
+    return (new Date() - startTime) / 1000;
 }
 
 RenderNextSentence();
