@@ -53,7 +53,7 @@ async function RenderNextSentence() {
 }
 
 let startTime;
-let originTime = 50;
+let originTime = 5;
 function StartTimer() {
     timer.innerText = originTime;
     startTime = new Date();
