@@ -69,7 +69,7 @@ function getTimerTime() {
 }
 
 function TimeUp() {
-    
+    RenderNextSentence();
 }
 
 RenderNextSentence();
