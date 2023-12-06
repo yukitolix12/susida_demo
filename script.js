@@ -58,6 +58,9 @@ function StartTimer() {
     timer.innerText = originTime;
     startTime = new Date();
     // console.log(startTime);
+    setInterval(() => {
+        timer.innerText = originTime - getTimerTime();
+    }, 1000);
 }
 
 RenderNextSentence();
