@@ -4,6 +4,7 @@ const typeInput = document.getElementById("typeInput");
 const timer = document.getElementById("timer");
 
 const typeSound = new Audio("./audio/typing-sound.mp3");
+const typeSound = new Audio("./audio/wrong.mp3");
 
 /*  inputテキスト入力。合っているかどうかの判定。*/
 typeInput.addEventListener("input", () => {
