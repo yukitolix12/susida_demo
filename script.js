@@ -9,7 +9,8 @@ const typeSound = new Audio("./audio/typing-sound.mp3");
 typeInput.addEventListener("input", () => {
     /* タイプ音をつける */
     typeSound.play(); 
-    
+    typeSound.currentTime = 0;
+
     const sentenceArray = typeDisplay.querySelectorAll("span");
     // console.log(sentenceArray);
     const arrayValue = typeInput.value.split("");
