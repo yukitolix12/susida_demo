@@ -68,4 +68,8 @@ function getTimerTime() {
     return Math.floor((new Date() - startTime) / 1000);
 }
 
+function TimeUp() {
+    
+}
+
 RenderNextSentence();
