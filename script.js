@@ -3,6 +3,8 @@ const typeDisplay = document.getElementById("typeDisplay");
 const typeInput = document.getElementById("typeInput");
 const timer = document.getElementById("timer");
 
+const typeSound = new Audio("./audio/typing-sound.mp3");
+
 /*  inputテキスト入力。合っているかどうかの判定。*/
 typeInput.addEventListener("input", () => {
     const sentenceArray = typeDisplay.querySelectorAll("span");
