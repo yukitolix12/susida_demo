@@ -7,6 +7,9 @@ const typeSound = new Audio("./audio/typing-sound.mp3");
 
 /*  inputテキスト入力。合っているかどうかの判定。*/
 typeInput.addEventListener("input", () => {
+    /* タイプ音をつける */
+    typeSound.play(); 
+    
     const sentenceArray = typeDisplay.querySelectorAll("span");
     // console.log(sentenceArray);
     const arrayValue = typeInput.value.split("");
