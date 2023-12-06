@@ -68,7 +68,7 @@ async function RenderNextSentence() {
     });
 
     /* テキストボックスの中身を消す */
-    typeInput.innerText = "";
+    typeInput.value = "";
 
     StartTimer();
 }
