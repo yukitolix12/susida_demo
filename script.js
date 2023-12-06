@@ -74,7 +74,7 @@ async function RenderNextSentence() {
 }
 
 let startTime;
-let originTime = 30;
+let originTime = 60;
 function StartTimer() {
     timer.innerText = originTime;
     startTime = new Date();
