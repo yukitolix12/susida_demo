@@ -38,6 +38,8 @@ typeInput.addEventListener("input", () => {
     });
 
     if(correct == true){
+        correctSound.play();
+        correctSound.currentTime = 0;
         RenderNextSentence();
     }
 });
