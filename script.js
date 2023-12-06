@@ -16,6 +16,7 @@ typeInput.addEventListener("input", () => {
     // console.log(sentenceArray);
     const arrayValue = typeInput.value.split("");
     // console.log(arrayValue);
+    let correct = true;
     sentenceArray.forEach((characterSpan, index) => {
         if((arrayValue[index] == null)) {
             characterSpan.classList.remove("correct");
