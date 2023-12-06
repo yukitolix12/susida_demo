@@ -60,6 +60,7 @@ function StartTimer() {
     // console.log(startTime);
     setInterval(() => {
         timer.innerText = originTime - getTimerTime();
+        if(timer.innerText <= 0) TimeUp();
     }, 1000);
 }
 
