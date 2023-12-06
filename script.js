@@ -32,6 +32,10 @@ typeInput.addEventListener("input", () => {
             wrongSound.currentTime = 0;
         }
     });
+
+    if(correct == true){
+        RenderNextSentence();
+    }
 });
 
 /* 非同期でランダムな文章を取得する */
