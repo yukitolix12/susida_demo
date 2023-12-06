@@ -21,6 +21,7 @@ typeInput.addEventListener("input", () => {
         if((arrayValue[index] == null)) {
             characterSpan.classList.remove("correct");
             characterSpan.classList.remove("incorrect");
+            correct = false;
         }else if(characterSpan.innerText == arrayValue[index]) {
             characterSpan.classList.add("correct");
             characterSpan.classList.remove("incorrect");
@@ -30,6 +31,8 @@ typeInput.addEventListener("input", () => {
 
             wrongSound.play()
             wrongSound.currentTime = 0;
+
+            correct = false;
         }
     });
 
