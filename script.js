@@ -63,4 +63,8 @@ function StartTimer() {
     }, 1000);
 }
 
+function getTimerTime() {
+    
+}
+
 RenderNextSentence();
